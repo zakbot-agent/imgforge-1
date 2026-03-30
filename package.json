@@ -1,0 +1,31 @@
+{
+  "name": "imgforge",
+  "version": "1.0.0",
+  "description": "Batch image processing CLI — resize, compress, convert, watermark",
+  "main": "dist/index.js",
+  "bin": {
+    "imgforge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "compress",
+    "convert",
+    "sharp",
+    "cli",
+    "batch"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  }
+}
